@@ -142,8 +142,8 @@ const person = [
     }
 ]
 
-every() => used to check the each and every element with an condition in a callback
-if any is false than return false array
+//every() => used to check the each and every element with an condition in a callback
+//if any is false than return false array
 const res1 = person.every((person) => person.name !== undefined)
 console.log(res1);
 const arr2 = [[1, 2, 3], [4, 5, 6], "123"]
@@ -164,8 +164,8 @@ const persons = [
     }
 ]
 
-some() => used to check the each and every element in array with an condition in a callback
-if any true than return true
+//some() => used to check the each and every element in array with an condition in a callback
+//if any true than return true
 const ans = persons.some((person) => person.name !== undefined);
 console.log(ans);
 
@@ -178,7 +178,7 @@ const values = [10, 20, 30, 40, 50]
 const res2 = values.findIndex((value) => value == 30)
 console.log(res2);
 
-From() => Convert Object into array(object, callback,)
+//From() => Convert Object into array(object, callback,)
 const str1 = "123456123";
 const numsArr = Array.from(str1, Number)
 const numsArr = Array.from(str1, (x) => Number(x));

@@ -47,7 +47,7 @@ const sum = arr2.myReduce((accumulator, curr) => {
 }, 0)
 console.log(sum) //15
 
-ForEach vs map()
+//ForEach vs map()
 
 const arr = [10, 23, 45, 12, 23];
 const result1 = arr.map((num) => {
